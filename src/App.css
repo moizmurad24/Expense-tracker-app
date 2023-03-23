@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.container {
+    max-width: 400px;
+    height: 800px;
+    background-color: lightgray;
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+    padding: 0 30px 0 30px;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-center {
+    text-align: center;
+    padding: 14px 0 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Income-expense {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    margin: 0 40px 0 40px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.transaction-form input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 5px 0;
+}
+.transaction-list {
+    margin: 0;
+    padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.transaction-list ul{
+    padding: 0%;
+    margin: 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    margin: 11px 0px;
+    border-radius: 5px;
 }
